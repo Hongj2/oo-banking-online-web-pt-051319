@@ -24,11 +24,6 @@ class BankAccount
     @status = "closed"
   end
 
-  def depsit (money)
-    @balance += money
-  end 
 
-
-    
 
 end
