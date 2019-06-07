@@ -1,4 +1,5 @@
 class Transfer
+<<<<<<< HEAD
   attr_accessor :receiver, :name, :sender, :amount, :status
   
   def initialize (sender,receiver,amount)
@@ -33,4 +34,13 @@ def reverse_transfer
   end
 end
 
+=======
+  attr_accessor :status
+  attr_reader
+  
+  def initialize (status)
+    @status = "pending"
+  end
+  
+>>>>>>> 9b5d21a273c8147122b168ba7ebc539c68ec5a60
 end

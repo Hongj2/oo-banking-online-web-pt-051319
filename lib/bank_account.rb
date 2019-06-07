@@ -8,6 +8,7 @@ class BankAccount
     @status = "open"
   end
   
+<<<<<<< HEAD
   def deposit (money)
     @balance += money
   end 
@@ -22,4 +23,12 @@ class BankAccount
   def close_account
     @status = "closed"
   end
+=======
+  def depsit (money)
+    @balance += money
+  end 
+
+
+    
+>>>>>>> 9b5d21a273c8147122b168ba7ebc539c68ec5a60
 end
